@@ -3,13 +3,15 @@
 		<div class="logo-container">
 			<Logo/>
 		</div>
-		<div class="holdings-container">
-			<Holdings/>
-		</div>
-		<div class="reports-container">
-			<Monthly/>
-			<Distrobutions/>
-			<Stats/>
+		<div class="content-container">
+			<div class="holdings-container">
+				<Holdings/>
+			</div>
+			<div class="reports-container">
+				<Monthly/>
+				<Distrobutions/>
+				<Stats/>
+			</div>
 		</div>
 	</section>
 </template>
@@ -35,16 +37,17 @@ export default {
 <style>
 .container {
 	display: grid;
-	grid-template: 100px 1fr / 10% 1fr 10%;
+	grid-template-rows: 100px 1fr;
 }
 .logo-container {
-	grid-column-start: 1;
+	grid-row-start: 1;
+}
+.content-container {
+	display: grid;
+	grid-template-columns: 10% 20% 60% 10%;
 }
 .holdings-container {
-	grid-row-start: 2;
-}
-.reports-container {
-	grid-row-start: 2;
+	grid-column-start: 2;
 }
 	
 </style>
