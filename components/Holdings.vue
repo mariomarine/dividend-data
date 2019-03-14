@@ -17,9 +17,24 @@
 				<span> 14 </span>
 				<span> $114.91 </span>
 			</div>
+			<Holding>
+				<span slot="ticker"> NEE </span>
+				<span slot="shares"> 15 </span>
+				<span slot="price"> $11.91 </span>
+			</Holding>
 		</div>
 	</div>
 </template>
+
+<script>
+import Holding from '~/components/Holding.vue'
+
+export default {
+	components: {
+		Holding
+	}
+}
+</script>
 
 <style>
 .holdings-table {
