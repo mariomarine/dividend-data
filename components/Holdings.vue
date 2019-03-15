@@ -7,16 +7,16 @@
 				<span> Shares </span>
 				<span> Price </span>
 			</div>
-			<div class="holdings-row">
-				<span> SO </span>
-				<span> 28.1 </span>
-				<span> $84.87 </span>
-			</div>
-			<div class="holdings-row">
-				<span> DUK </span>
-				<span> 14 </span>
-				<span> $114.91 </span>
-			</div>
+			<Holding>
+				<span slot="ticker"> {{ ticker }} </span>
+				<span slot="shares"> {{ shares }} </span>
+				<span slot="price"> $84.87 </span>
+			</Holding>
+			<Holding>
+				<span slot="ticker"> DUK </span>
+				<span slot="shares"> 14 </span>
+				<span slot="price"> $114.91 </span>
+			</Holding>
 			<Holding>
 				<span slot="ticker"> NEE </span>
 				<span slot="shares"> 15 </span>
@@ -27,11 +27,17 @@
 </template>
 
 <script>
-import Holding from '~/components/Holding.vue'
+import Holding from '@/components/Holding.vue'
 
 export default {
 	components: {
 		Holding
+	},
+	data() {
+		return {
+			ticker: 'SO',
+			shares: 28.1
+		}
 	}
 }
 </script>

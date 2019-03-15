@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Holdings.vue should render content correctly 1`] = `
+<div
+  class="holdings"
+>
+  <h2>
+    Holdings
+  </h2>
+   
+  <div
+    class="holdings-table"
+  >
+    <div
+      class="holdings-row"
+    >
+      <span>
+         Ticker 
+      </span>
+       
+      <span>
+         Shares 
+      </span>
+       
+      <span>
+         Price 
+      </span>
+    </div>
+     
+    <div
+      class="holdings-row"
+    >
+      <span>
+         SO 
+      </span>
+       
+      <span>
+         28.1 
+      </span>
+       
+      <span>
+         $84.87 
+      </span>
+    </div>
+     
+    <div
+      class="holdings-row"
+    >
+      <span>
+         DUK 
+      </span>
+       
+      <span>
+         14 
+      </span>
+       
+      <span>
+         $114.91 
+      </span>
+    </div>
+     
+    <div
+      class="holdings-row"
+    >
+      <span>
+         NEE 
+      </span>
+       
+      <span>
+         15 
+      </span>
+       
+      <span>
+         $11.91 
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue should render content correctly 1`] = `
+<div
+  class="Logo"
+>
+  <h1>
+    Dividend Data
+  </h1>
+</div>
+`;

@@ -1,5 +1,5 @@
 <template>
-	<div class="holding-row">
+	<div class="holdings-row">
 		<slot name="ticker"> </slot>
 		<slot name="shares"> </slot>
 		<slot name="price"> </slot>
@@ -7,9 +7,13 @@
 </template>
 
 <style>
-.holding-row {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-}
 </style>
+
+<script>
+export default {
+	props: [
+		'ticker'
+	]
+}
+</script>
 
