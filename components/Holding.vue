@@ -10,10 +10,5 @@
 </style>
 
 <script>
-export default {
-	props: [
-		'ticker'
-	]
-}
 </script>
 

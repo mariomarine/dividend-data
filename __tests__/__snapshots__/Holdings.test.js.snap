@@ -39,10 +39,9 @@ exports[`Holdings.vue should render content correctly 1`] = `
       </span>
        
       <span>
-         $84.87 
+         $84.87
       </span>
     </div>
-     
     <div
       class="holdings-row"
     >
@@ -55,10 +54,9 @@ exports[`Holdings.vue should render content correctly 1`] = `
       </span>
        
       <span>
-         $114.91 
+         $114.91
       </span>
     </div>
-     
     <div
       class="holdings-row"
     >
@@ -71,7 +69,7 @@ exports[`Holdings.vue should render content correctly 1`] = `
       </span>
        
       <span>
-         $11.91 
+         $11.91
       </span>
     </div>
   </div>
