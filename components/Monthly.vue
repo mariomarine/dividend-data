@@ -3,9 +3,7 @@
 		<h2>Monthly Income Distrobution</h2>
 		<div class="monthly-content">
 			<Month :mon='"MAR"' />
-			<div>
-				<span>APR: $15</span>
-			</div>
+			<Month :mon='"APR"' />
 			<div>
 				<span>MAY: $15</span>
 			</div>

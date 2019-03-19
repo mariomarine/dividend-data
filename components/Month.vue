@@ -1,8 +1,6 @@
 <template>
 	<div class="month">
-		<div>
-			<span>{{ mon }}: $15</span>
-		</div>
+		<span>{{ mon }}: $15</span>
 	</div>
 </template>
 

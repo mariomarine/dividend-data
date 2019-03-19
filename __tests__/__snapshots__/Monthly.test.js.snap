@@ -14,14 +14,14 @@ exports[`Monthly.vue should render content correctly 1`] = `
     <div
       class="month"
     >
-      <div>
-        <span>
-          MAR: $15
-        </span>
-      </div>
+      <span>
+        MAR: $15
+      </span>
     </div>
      
-    <div>
+    <div
+      class="month"
+    >
       <span>
         APR: $15
       </span>
