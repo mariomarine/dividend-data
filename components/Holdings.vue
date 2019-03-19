@@ -1,5 +1,5 @@
 <template>
-	<div class="holdings">
+	<div class="holdings whiteframe md-whiteframe-3dp">
 		<h2>Holdings</h2>
 		<div class="holdings-table">
 			<div class="holdings-row">
@@ -25,8 +25,6 @@ export default {
 	},
 	data() {
 		return {
-			ticker: 'SO',
-			shares: 28.1,
 			stocks: [
 				{
 					ticker: 'SO',

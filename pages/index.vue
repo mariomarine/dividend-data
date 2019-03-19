@@ -35,9 +35,13 @@ export default {
 </script>
 
 <style>
+html, body, #__nuxt, #__layout, #__layout > div {
+	height: 100%;
+}
 .container {
 	display: grid;
 	grid-template-rows: 100px 1fr;
+	height: 100%;
 }
 .logo-container {
 	grid-row-start: 1;
@@ -45,6 +49,8 @@ export default {
 .content-container {
 	display: grid;
 	grid-template-columns: 10% 20% 60% 10%;
+	grid-template-rows: 1fr 1fr;
+	background-color: #F0FFFF;
 }
 .holdings-container {
 	grid-column-start: 2;

@@ -1,5 +1,5 @@
 <template>
-	<div class="stats">
+	<div class="stats whiteframe md-whiteframe-3dp">
 		<h2>Stats</h2>
 		<div class="stats-report">
 			<span> Current Yield: 4% </span>

@@ -1,5 +1,5 @@
 <template>
-	<div class="distrobutions">
+	<div class="distrobutions whiteframe md-whiteframe-3dp">
 		<h2>Distrobutions</h2>
 		<div class="distrobutions-report">
 			<div class="distrobution-row">
