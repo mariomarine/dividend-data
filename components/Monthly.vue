@@ -1,10 +1,8 @@
 <template>
-	<div class="monthly">
+	<div class="monthly whiteframe md-whiteframe-3dp">
 		<h2>Monthly Income Distrobution</h2>
 		<div class="monthly-content">
-			<div>
-				<span>MAR: $15</span>
-			</div>
+			<Month :mon='"MAR"' />
 			<div>
 				<span>APR: $15</span>
 			</div>
@@ -49,3 +47,12 @@
 }
 </style>
 
+<script>
+import Month from '@/components/Month.vue'
+
+export default {
+	components: {
+		Month
+	}
+}
+</script>
