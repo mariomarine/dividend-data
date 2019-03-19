@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Monthly.vue should render content correctly 1`] = `
+<div
+  class="monthly whiteframe md-whiteframe-3dp"
+>
+  <h2>
+    Monthly Income Distrobution
+  </h2>
+   
+  <div
+    class="monthly-content"
+  >
+    <div
+      class="month"
+    >
+      <div>
+        <span>
+          MAR: $15
+        </span>
+      </div>
+    </div>
+     
+    <div>
+      <span>
+        APR: $15
+      </span>
+    </div>
+     
+    <div>
+      <span>
+        MAY: $15
+      </span>
+    </div>
+     
+    <div>
+      <span>
+        JUN: $15
+      </span>
+    </div>
+     
+    <div>
+      <span>
+        JUL: $15
+      </span>
+    </div>
+     
+    <div>
+      <span>
+        AUG: $15
+      </span>
+    </div>
+     
+    <div>
+      <span>
+        SEP: $15
+      </span>
+    </div>
+     
+    <div>
+      <span>
+        OCT: $15
+      </span>
+    </div>
+     
+    <div>
+      <span>
+        NOV: $15
+      </span>
+    </div>
+     
+    <div>
+      <span>
+        DEC: $15
+      </span>
+    </div>
+     
+    <div>
+      <span>
+        JAN: $15
+      </span>
+    </div>
+     
+    <div>
+      <span>
+        FEB: $15
+      </span>
+    </div>
+  </div>
+</div>
+`;

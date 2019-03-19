@@ -2,7 +2,7 @@
 
 exports[`Holdings.vue should render content correctly 1`] = `
 <div
-  class="holdings"
+  class="holdings whiteframe md-whiteframe-3dp"
 >
   <h2>
     Holdings
